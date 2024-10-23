@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bckrlab/dsc-tutorials/HEAD)
+
 # DSC Tutorials
 
 > Machine Learning Tutorials for the Data Science Club.
