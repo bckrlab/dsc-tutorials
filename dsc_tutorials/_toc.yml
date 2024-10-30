@@ -5,4 +5,5 @@ format: jb-book
 root: intro
 chapters:
 - file: 01_python-intro
+- file: 02_ecosystem
 - file: bookmarks
