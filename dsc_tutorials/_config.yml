@@ -8,7 +8,16 @@
 title                       : DSC Tutorials  # The title of the book. Will be placed in the left navbar.
 author                      : Bjarne C. Hiller  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : logo.png  # A path to the book logo
+
+# use sphinx options for dark and light mode logo instead
+# logo                        : logo.png  # A path to the book logo
+
+sphinx:
+  config:
+    html_theme_options:
+      logo:
+        image_light: logo_light.png
+        image_dark: logo_dark.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
