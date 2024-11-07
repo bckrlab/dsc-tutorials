@@ -3,6 +3,10 @@
 Contributions are welcome, and they are greatly appreciated! Every little bit
 helps, and credit will always be given. You can contribute in the ways listed below.
 
+## Language
+
+Please use gender-neutral forms and inclusive language.
+
 ## Report Bugs
 
 Report bugs using GitHub issues.
