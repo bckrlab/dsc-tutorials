@@ -2,8 +2,9 @@
 
 > A common misconception: you actually CAN talk about Data Science Club.
 
-Data Science Tutorials
+WORK IN PROGRESS
 
+## Tutorials
 
 ```{tableofcontents}
 ```

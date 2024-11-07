@@ -14,6 +14,8 @@ logo                        : logo.png  # A path to the book logo
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  # allow NotImplementedErros errors for now
+  allow_errors: true
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -27,14 +29,20 @@ bibtex_bibfiles:
 # Information about where the book exists on the web
 repository:
   url: https://github.com/bckrlab/dsc-tutorials # Online location of your book
-  path_to_book: dsc_tutorials  # Optional path to your book, relative to the repository root
+  path_to_book: dsc_tutorials/  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   baseurl: https://bckrlab.org/dsc-tutorials/
+  home_page_in_navbar: true
   use_issues_button: true
   use_repository_button: true
-
 # favicon:
+
+# launch notebooks in executable environment
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://collab.research.google.com"
