@@ -12,13 +12,6 @@ copyright                   : "2024"  # Copyright year to be placed in the foote
 # use sphinx options for dark and light mode logo instead
 # logo                        : logo.png  # A path to the book logo
 
-sphinx:
-  config:
-    html_theme_options:
-      logo:
-        image_light: logo_light.png
-        image_dark: logo_dark.png
-
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
@@ -55,3 +48,12 @@ launch_buttons:
   notebook_interface: "jupyterlab"
   binderhub_url: "https://mybinder.org"
   colab_url: "https://colab.research.google.com"
+
+# sphinx settings seem to conflict with jupyter settings
+# e.g., launch buttons don't show up anymore
+#sphinx:
+#  config:
+#    html_theme_options:
+#      logo:
+#        image_light: logo_light.png
+#        image_dark: logo_dark.png
