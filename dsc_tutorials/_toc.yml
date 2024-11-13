@@ -6,4 +6,5 @@ root: intro
 chapters:
 - file: 01_python-intro
 - file: 02_ecosystem
+- file: 03_neighbors.ipynb
 - file: bookmarks
