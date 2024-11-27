@@ -7,4 +7,5 @@ chapters:
 - file: 01_python-intro
 - file: 02_ecosystem
 - file: 03_neighbors.ipynb
+- file: 04_trees.ipynb
 - file: bookmarks
