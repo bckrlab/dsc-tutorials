@@ -10,7 +10,8 @@ author                      : Bjarne C. Hiller  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
 
 # use sphinx options for dark and light mode logo instead
-# logo                        : logo.png  # A path to the book logo
+# UPDATE: actually, don't do that, since it seems to disable launch buttons for some reason
+logo                        : logo-gray.png  # A path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
