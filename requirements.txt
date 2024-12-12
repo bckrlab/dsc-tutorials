@@ -5,3 +5,5 @@ numpy
 pandas
 scikit-learn
 ghp-import
+# pydata-sphinx-theme 16.0 breaks sidebar
+pydata-sphinx-theme<16.0
