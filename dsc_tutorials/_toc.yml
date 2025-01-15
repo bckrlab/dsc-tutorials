@@ -8,4 +8,5 @@ chapters:
 - file: 02_ecosystem
 - file: 03_neighbors.ipynb
 - file: 04_trees.ipynb
+- file: 05_naive-bayes.ipynb
 - file: bookmarks
