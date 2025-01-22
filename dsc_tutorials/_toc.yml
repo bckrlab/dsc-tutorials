@@ -3,10 +3,16 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: 01_python-intro
-- file: 02_ecosystem
-- file: 03_neighbors.ipynb
-- file: 04_trees.ipynb
-- file: 05_naive-bayes.ipynb
-- file: bookmarks
+parts:
+  - caption: "ML from Scratch"
+    chapters:
+    - file: 01_python-intro
+    - file: 02_ecosystem
+    - file: 03_neighbors.ipynb
+    - file: 04_trees.ipynb
+    - file: 05_naive-bayes.ipynb
+    - file: bookmarks
+  - caption: "Field Trips"
+    chapters:
+    - file: "field-trips/diffusion-models.ipynb"
+
