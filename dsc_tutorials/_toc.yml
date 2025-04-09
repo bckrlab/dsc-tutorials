@@ -11,6 +11,7 @@ parts:
     - file: 03_neighbors.ipynb
     - file: 04_trees.ipynb
     - file: 05_naive-bayes.ipynb
+    - file: 06_neural_networks.ipynb
     - file: bookmarks
   - caption: "Field Trips"
     chapters:
