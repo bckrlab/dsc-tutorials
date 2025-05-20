@@ -4,6 +4,7 @@ seaborn
 numpy
 pandas
 torch
+torchvision
 tqdm
 scikit-learn
 ghp-import
