@@ -15,5 +15,6 @@ parts:
     - file: bookmarks
   - caption: "Field Trips"
     chapters:
-    - file: "field-trips/diffusion-models.ipynb"
+    - file: "field-trips/autoencoder/autoencoder.ipynb"
+    #- file: "field-trips/diffusion-models/diffusion-models.ipynb"
 
