@@ -17,6 +17,7 @@ parts:
     chapters:
     - file: 03_deep_learning/neural_networks/06_neural_networks.ipynb
     - file: 03_deep_learning/autoencoder/autoencoder.ipynb
+    - file: 03_deep_learning/vae/vae.ipynb
   - caption: "Appendix"
     chapters:
       - file: bookmarks
