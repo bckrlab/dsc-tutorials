@@ -1,0 +1,49 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "dsc-tutorials-dev",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "dsc-tutorials-dev",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {
+	// 	"ghcr.io/devcontainers/features/conda:1": {}
+	// },
+
+	// where to mount the workspace
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [5000, 6006, 8888],
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscoda-pylance",
+				"ms-python.autopep8",
+				"mechatroner.rainbow-csv",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root",
+
+	// install package and cleanup
+	"postCreateCommand": "./.devcontainer/post-install.sh",
+
+	// with GPU support
+	"runArgs": [
+	    "--gpus", "all",
+		"--cpus", "16",
+		"--memory", "16g",
+		"--shm-size", "4g"
+	]
+
+	// Additional mounts
+	// "mounts": [{ "source": "dind-var-lib-docker", "target": "/var/lib/docker", "type": "volume" }]
+}

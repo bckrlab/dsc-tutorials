@@ -1,0 +1,4 @@
+name: dsc-tutorials
+dependencies:
+  - python=3.12
+  - pip
