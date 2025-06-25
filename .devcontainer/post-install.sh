@@ -7,4 +7,4 @@ eval "$(micromamba shell hook --shell bash)"
 micromamba activate dev
 
 # install package
-pip install -e .
+pip install -r requirements.txt
