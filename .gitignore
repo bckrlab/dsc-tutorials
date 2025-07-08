@@ -1,4 +1,6 @@
+data/
 dsc_tutorials/_build/
+dsc_tutorials/*/data/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks

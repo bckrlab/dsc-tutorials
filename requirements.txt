@@ -10,3 +10,4 @@ scikit-learn
 ghp-import
 # pydata-sphinx-theme 0.16 breaks sidebar
 pydata-sphinx-theme<0.16
+pyhere
