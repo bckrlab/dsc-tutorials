@@ -10,4 +10,6 @@ scikit-learn
 ghp-import
 # pydata-sphinx-theme 0.16 breaks sidebar
 pydata-sphinx-theme<0.16
-pyhere
+# I'd love to use pyhere to manage paths
+# unfortunately, I think this would break things in Google Collab :(
+# pyhere
