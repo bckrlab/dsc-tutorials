@@ -16,8 +16,9 @@ logo                        : logo-gray.png  # A path to the book logo
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  # execute_notebooks: force
-  execute_notebooks: cache
+  # execute_notebooks: (auto, force, cache, inline, "off")
+  # off will prevent execution during build and just use whatever is currently in the notebooks
+  execute_notebooks: "off"
   # allow NotImplementedErros errors for now
   allow_errors: true
 
