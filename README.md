@@ -1,4 +1,4 @@
-[![bckrlab.org](https://img.shields.io/badge/bckrlab.org-blue?style=flat)](https://bckrlab.org/dsc-tutorials/intro.html)
+[![bckrlab.org](https://img.shields.io/badge/bckrlab.org-blue?style=flat)](https://bckrlab.org/dsc-tutorials/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bckrlab/dsc-tutorials/HEAD)
 
 # DSC Tutorials
