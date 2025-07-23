@@ -1,4 +1,5 @@
-jupyter-book
+# use jupyter-book version 2!
+jupyter-book==2.*
 matplotlib
 seaborn
 numpy
@@ -9,7 +10,8 @@ tqdm
 scikit-learn
 ghp-import
 # pydata-sphinx-theme 0.16 breaks sidebar
-pydata-sphinx-theme<0.16
+# no longer required after upgrading to jupyter book >= 2.0
+# pydata-sphinx-theme<0.16
 # I'd love to use pyhere to manage paths
 # unfortunately, I think this would break things in Google Collab :(
 pyhere

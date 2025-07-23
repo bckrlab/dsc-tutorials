@@ -1,0 +1,43 @@
+version: 1
+project:
+  title: DSC Tutorials
+  authors:
+    - name: Bjarne C. Hiller
+  copyright: '2024'
+  github: bckrlab/dsc-tutorials
+  thebe:
+    binder:
+      repo: bckrlab/dsc-tutorials
+      provider: github
+      url: https://mybinder.org
+      ref: main
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - title: Introduction
+      children:
+        - file: 01_introduction/01_python_intro.ipynb
+        - file: 01_introduction/02_ecosystem.ipynb
+    - title: ML from Scratch
+      children:
+        - file: 02_ml_from_scratch/03_neighbors.ipynb
+        - file: 02_ml_from_scratch/04_trees.ipynb
+        - file: 02_ml_from_scratch/05_naive_bayes.ipynb
+    - title: Deep Learning
+      children:
+        - file: 03_deep_learning/neural_networks/06_neural_networks.ipynb
+        - file: 03_deep_learning/autoencoder/autoencoder.ipynb
+        - file: 03_deep_learning/vae/vae.ipynb
+    - title: Appendix
+      children:
+        - file: bookmarks.md
+site:
+  options:
+    logo: logo-gray.png
+    folders: true
+  template: book-theme
