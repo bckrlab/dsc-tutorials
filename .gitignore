@@ -1,3 +1,6 @@
+# MyST build outputs
+_build/
+
 data/
 dsc_tutorials/_build/
 dsc_tutorials/*/data/*
