@@ -17,3 +17,5 @@ ghp-import
 # I'd love to use pyhere to manage paths
 # unfortunately, I think this would break things in Google Collab :(
 pyhere
+# reinforcement learning environments
+gymnasium[classic-control]
