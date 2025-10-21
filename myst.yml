@@ -33,6 +33,9 @@ project:
         - file: content/03_deep_learning/neural_networks/06_neural_networks.ipynb
         - file: content/03_deep_learning/autoencoder/autoencoder.ipynb
         - file: content/03_deep_learning/vae/vae.ipynb
+    - title: Reinforcement Learning
+      children:
+        - file: content/04_reinforcement_learning/cart_pole.ipynb
     - title: Probability Theory
       children:
         # - file: content/probability_theory/mcmc.ipynb
