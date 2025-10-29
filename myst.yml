@@ -35,7 +35,10 @@ project:
         - file: content/03_deep_learning/vae/vae.ipynb
     - title: Reinforcement Learning
       children:
-        - file: content/04_reinforcement_learning/cart_pole.ipynb
+        - file: content/04_reinforcement_learning/01_introduction.ipynb
+        - file: content/04_reinforcement_learning/02_gymnasium.ipynb
+        - file: content/04_reinforcement_learning/03_cart_pole.ipynb
+        - file: content/04_reinforcement_learning/04_dqn.ipynb
     - title: Probability Theory
       children:
         # - file: content/probability_theory/mcmc.ipynb
