@@ -39,6 +39,7 @@ project:
         - file: content/04_reinforcement_learning/02_gymnasium.ipynb
         - file: content/04_reinforcement_learning/03_cart_pole.ipynb
         - file: content/04_reinforcement_learning/04_dqn.ipynb
+        - file: content/04_reinforcement_learning/05_sb3.ipynb
     - title: Probability Theory
       children:
         # - file: content/probability_theory/mcmc.ipynb
