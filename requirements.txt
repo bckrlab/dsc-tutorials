@@ -1,7 +1,7 @@
 # use jupyter-book version 2!
 #jupyter-book==2.*
 # only pre-release version available yet apparently
-jupyter-book==2.0.0b3
+jupyter-book>=2.0
 matplotlib
 seaborn
 numpy
