@@ -18,4 +18,4 @@ ghp-import
 # unfortunately, I think this would break things in Google Collab :(
 pyhere
 # reinforcement learning environments
-gymnasium[classic-control]
+gymnasium[classic-control,box-2d]
