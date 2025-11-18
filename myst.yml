@@ -28,6 +28,7 @@ project:
         - file: content/02_ml_from_scratch/03_neighbors.ipynb
         - file: content/02_ml_from_scratch/04_trees.ipynb
         - file: content/02_ml_from_scratch/05_naive_bayes.ipynb
+        - file: content/02_ml_from_scratch/tsne.ipynb
     - title: Deep Learning
       children:
         - file: content/03_deep_learning/neural_networks/06_neural_networks.ipynb
