@@ -9,7 +9,9 @@ pandas
 torch
 torchvision
 tqdm
+rich
 scikit-learn
+ipywidgets
 ghp-import
 # pydata-sphinx-theme 0.16 breaks sidebar
 # no longer required after upgrading to jupyter book >= 2.0
@@ -19,3 +21,4 @@ ghp-import
 pyhere
 # reinforcement learning environments
 gymnasium[classic-control,box-2d]
+stable_baselines3
