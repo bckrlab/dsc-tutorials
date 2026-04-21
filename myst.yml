@@ -44,6 +44,9 @@ project:
     - title: Probability Theory
       children:
         - file: content/probability_theory/mcmc.ipynb
+    - title: Demos
+      children:
+        - file: content/05_demos/2026-04-14_spi/2026-04-14_spi.ipynb
     - title: Appendix
       children:
         - file: content/bookmarks.md
