@@ -43,7 +43,8 @@ project:
         - file: content/04_reinforcement_learning/05_sb3.ipynb
     - title: Probability Theory
       children:
-        - file: content/probability_theory/mcmc.ipynb
+        - file: content/probability_theory/mcmc/mcmc.ipynb
+        - file: content/probability_theory/em/em.ipynb
     - title: Demos
       children:
         - file: content/05_demos/2026-04-14_spi/2026-04-14_spi.ipynb
